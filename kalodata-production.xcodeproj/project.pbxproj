@@ -11,6 +11,7 @@
 		04C05EEA2C0D9C1F004CC80B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05EE92C0D9C1F004CC80B /* ContentView.swift */; };
 		04C05EEC2C0D9C20004CC80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C05EEB2C0D9C20004CC80B /* Assets.xcassets */; };
 		04C05EEF2C0D9C20004CC80B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C05EEE2C0D9C20004CC80B /* Preview Assets.xcassets */; };
+		04C05EF62C0D9CB5004CC80B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05EF52C0D9CB5004CC80B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		04C05EE92C0D9C1F004CC80B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C05EEB2C0D9C20004CC80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C05EEE2C0D9C20004CC80B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C05EF52C0D9CB5004CC80B /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = ../../kalodata/kalodata/WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				04C05EE72C0D9C1F004CC80B /* kalodata_productionApp.swift */,
+				04C05EF52C0D9CB5004CC80B /* WebView.swift */,
 				04C05EE92C0D9C1F004CC80B /* ContentView.swift */,
 				04C05EEB2C0D9C20004CC80B /* Assets.xcassets */,
 				04C05EED2C0D9C20004CC80B /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C05EF62C0D9CB5004CC80B /* WebView.swift in Sources */,
 				04C05EEA2C0D9C1F004CC80B /* ContentView.swift in Sources */,
 				04C05EE82C0D9C1F004CC80B /* kalodata_productionApp.swift in Sources */,
 			);
@@ -275,17 +279,20 @@
 				DEVELOPMENT_TEAM = 64B5QK67H3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kalodata;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kalodata.ios.kalodata-production";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalodata.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,17 +311,20 @@
 				DEVELOPMENT_TEAM = 64B5QK67H3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kalodata;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kalodata.ios.kalodata-production";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalodata.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
